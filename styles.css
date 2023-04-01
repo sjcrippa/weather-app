@@ -23,4 +23,26 @@ body{
     overflow: hidden;
     border-radius: 18px;
     font-family: 'Poppins', sans-serif;
+    transition: 0.6s ease-out;
+}
+
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-box input{
+    color: #06283d;
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: 32px;
+    
+}
+.img{    
+    width: 50%;
+    height: 50%;
 }
